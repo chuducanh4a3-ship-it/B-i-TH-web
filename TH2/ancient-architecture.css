@@ -1,0 +1,107 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body {
+    font-family : Roboto , sans-serif ;
+    background : #e2d7aa ;
+    color : #000000 ;
+    font-size : 16px ;
+    width : 1180px ;
+    margin : 0 auto ;
+}
+
+nav ul {
+    list-style: none; 
+    text-align : center ;
+}
+
+nav li {
+    display : inline-block ;
+
+    padding : 0 10px ;
+}
+nav li a {
+    font-size: 28px ;
+    color : #000000 ;
+}
+nav li:first-child a {
+    color: #0a2d4a;
+    Font-Weight: Bold ;
+}
+nav li:last-child a {
+    color: #0a2d4a;
+    Font-Weight: Bold ;
+}
+a {
+    text-decoration: none ;
+}
+
+
+
+h1 {
+    font-size : 60px ;
+    text-align : center ;
+    margin-top : 20px ;
+    font-family : 'Indie Flower', cursive ;
+    font-weight : normal; 
+}
+
+
+div.img-container {
+    text-align : center ;
+    padding : 0 23px ;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+}
+div.img-container img {
+    width : 100% ;
+}
+
+main article{
+    width : calc(33.3% - 20px) ;
+    float : left ;
+    padding : 0 10px ;
+}
+article h2, article h3 {
+    width : 100% ;
+    text-align: center;
+}
+article h3 a {
+    color : blue ;
+}
+article img {
+    width: 100% ;
+    height : 200px ;
+    margin-bottom: 10px;
+}
+article p:first-of-type {
+    text-align: justify;
+    margin-bottom: 5px;
+    word-spacing : 5px ;
+}
+article p:first-of-type::first-letter {
+    font-family : EucrosiaUPC, sans-serif;
+    font-size: 40px ;
+}
+article p:last-of-type span a {
+    background-image : url('images/bg2.jpg') ;
+    color : #ffffff ;
+    padding : 10px 20px ;
+    margin-top : 10px ;
+    text-transform: uppercase ;
+}
+article p:last-of-type span:first-of-type a::before {
+    content: url("images/comment.png");
+    position: relative ;
+    right: 5px ;
+    top : 7px ;
+    padding : 10px ;
+}
+
+footer {
+    clear : both ;
+    padding : 40px 0 0 0;
+    text-align : center ;
+}

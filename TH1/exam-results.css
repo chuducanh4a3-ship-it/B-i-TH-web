@@ -1,0 +1,27 @@
+table{
+    border: 2px solid #000000 ;
+}
+
+td{
+    border: 2px solid #000000 ;
+    padding-left:5px;
+}
+
+tr{
+    border: 2px  solid #000000 ;
+}
+
+th{
+    border: 2px solid #000000 ; 
+}
+
+.bold{
+    font-weight:bold;
+    text-align:center;
+}
+
+.results{
+    width:400px;
+    text-align:right;
+    padding-right:5px;
+}
